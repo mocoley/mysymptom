@@ -1,2 +1,2 @@
 # mysymptom
-This is project for MySymptom: Disease Dictionary
+This project is for MySymptom: Disease Dictionary
