@@ -1,5 +1,5 @@
 # mysymptom
-This is project for MySymptom: Disease Dictionary
+This project is for MySymptom: Disease Dictionary
 What if we could find out symptoms to a given symptom, from a symptom-disease database using Python? This model that I found on github does just that. This model can be used to predict symptoms that are closely related to a given symptom. The idea behind the model is that the user enters a symptom, and a list of similar symptoms will appear which the user selects the one that applies the most to them. The database contains a table of diseases and their associated symptoms. Here is how the model is designed:
 1. After preprocessing, make the data into the symptom-disease format from the existing disease-symptom format.
 2. Make symptoms the target words and the associated diseases the context words, and use this as the (target word, context word) pair for skip gram generation.
